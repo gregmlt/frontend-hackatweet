@@ -1,0 +1,67 @@
+.modalsignup{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    background-color: #151D27;
+    border-radius: 20px;
+    z-index: 1;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 30px;
+    
+}
+.modalsignup img {
+    width: 40px;
+}
+
+.modalcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.closeicon {
+    margin-left: 95%;
+    cursor: pointer;
+}
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.inputstyle {
+    width: 100%;
+    color: #222245;
+    padding: 14px;
+    background-color: #ffffff00;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.buttonsignup {
+    padding: 14px 0px;
+    width: 100%;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #0f0f0f;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.buttonsignup:hover {
+    background-color:#ffffff;
+    color:#3790EE;
+    transition: all 0.3s
+  }

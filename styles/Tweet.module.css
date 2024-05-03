@@ -1,0 +1,37 @@
+.tweetcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.identifier, .dates {
+    font-size: 16px;
+    color: grey;
+    margin:0px 4px;
+}
+
+.likeIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5%;
+}

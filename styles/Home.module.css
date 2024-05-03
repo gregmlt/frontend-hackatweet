@@ -1,22 +1,127 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+  background-color: #1B232D;
+  color: white;
+  width: 100vw;
+  height: 100vh;
 }
 
 .title {
-  line-height: 1.15;
-  font-size: 4rem;
+  padding-left: 30px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.title a {
-  color: #0070f3;
+/*# Left section */
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 0.5px solid grey;
+}
+
+.miniLogo {
+  height: 60px;
+  width: 60px;
+}
+
+.miniLogo:hover {
+  cursor: pointer;
+}
+
+.profilePic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.userCard {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.userText {
+  margin-left: 10px;
+}
+
+.username {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.userText > .identifier {
+  font-size: 14px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.logoutBtn {
+  padding: 5px 20px;
+  text-align: center;
   text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 16px;
+  cursor: pointer;
+  width: 110px;
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+.logoutBtn:hover {
+  background-color: white;
+  color: #171f2c;
+  border: white 1px solid;
 }
+
+/*# Middle section */
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0px 20px;
+  height: 30%;
+  flex-direction: column;
+  overflow: auto;
+  border-bottom: 1px solid #c9c9c9;
+
+
+}
+
+
+.tweetContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 0.5px solid grey;
+}
+
+
+/*# Right section */
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 20px 20px;
+  border-left: 0.5px solid grey;
+}
+
+
+/* color : #F1F4F3 grey */
+/* color : #3790EE blue */

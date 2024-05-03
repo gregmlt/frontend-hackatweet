@@ -3,8 +3,15 @@ import Login from "./Login"
 import PostBar from "./PostBar";
 import Tweet from "./Tweet"
 import Trends from "./Trends"
+import { useEffect, useState } from 'react';
 
 function Home() {
+
+
+
+
+
+
 
 
   return (  
